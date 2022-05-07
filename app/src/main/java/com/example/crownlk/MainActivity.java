@@ -1,92 +1,86 @@
 package com.example.crownlk;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
+import android.view.MenuItem;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-
 public class MainActivity extends AppCompatActivity {
 
-
-    private Button login;
-    private Button register;
-
+    BottomNavigationView bottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-         //Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("message");
+        DatabaseReference myRef = database.getReference("User");
 
-        myRef.setValue("CrownLK Selling app");
+        myRef.setValue("Hello, User");
 
-        // Read from the database
+
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
                 String value = dataSnapshot.getValue(String.class);
-                Log.d("CrownLK", "Value is: " + value);
+                Log.d("crownlk", "Value is: " + value);
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
-                Log.w("CrownLK", "Failed to read value.", error.toException());
+                Log.w("crownlk", "Failed to read value.", error.toException());
             }
         });
 
-        this.login = findViewById(R.id.login);
-        this.register = findViewById(R.id.signup);
+        bottomNavigationView=findViewById(R.id.bottom_navigation);
+        bottomNavigationView.setSelectedItemId(R.id.home);
 
-       this.login.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-               int duration = Toast.LENGTH_SHORT;
-               CharSequence msg = "Login page";
-               Context context = getApplicationContext();
+                  switch (item.getItemId())
+                  {
+                      case R.id.favorite:
+                          startActivity(new Intent(getApplicationContext(),favorite.class));
+                          overridePendingTransition(0,0);
+                          return true;
 
-               Toast toast = Toast.makeText(context, msg, duration);
-               toast.show();
-               toast.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER, 10, 0);
+                      case R.id.home:
+                          return true;
 
-               startActivity(new Intent(MainActivity.this,AdminLogin.class));
-               finish();
-           }
-       });
+                      case R.id.profile:
+                           startActivity(new Intent(getApplicationContext(),profile.class));
+                           overridePendingTransition(0,0);
+                           return true;
 
-       this.register.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               int duration = Toast.LENGTH_SHORT;
-               CharSequence msg = "Register page";
-               Context context = getApplicationContext();
+                      case R.id.update:
+                           startActivity(new Intent(getApplicationContext(),update.class));
+                           overridePendingTransition(0,0);
+                           return true;
 
-               Toast toast = Toast.makeText(context, msg, duration);
-               toast.show();
-               toast.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER, 10, 0);
+                      case R.id.cart:
+                          startActivity(new Intent(getApplicationContext(),cart.class));
+                          overridePendingTransition(0,0);
+                          return true;
+                  }
 
-               startActivity(new Intent(MainActivity.this, AdminRegister.class));
-               finish();
-           }
-       });
+                return false;
+            }
+        });
     }
 }

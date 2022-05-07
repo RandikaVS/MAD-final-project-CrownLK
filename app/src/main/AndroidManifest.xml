@@ -8,39 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CrownLK">
+        android:theme="@style/Theme.CrownLk">
         <activity
-            android:name=".DashBoardActivity"
+            android:name=".checkout"
             android:exported="false" />
         <activity
-            android:name=".AdminActivity"
+            android:name=".update"
             android:exported="false" />
         <activity
-            android:name=".AdminRegister"
+            android:name=".profile"
             android:exported="false" />
         <activity
-            android:name=".DisputeActivity"
+            android:name=".cart"
             android:exported="false" />
         <activity
-            android:name=".NotificationActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ListingsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MessagesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OrderActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ShopActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DrawerBase"
-            android:exported="false" />
-        <activity
-            android:name=".AdminLogin"
+            android:name=".favorite"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
