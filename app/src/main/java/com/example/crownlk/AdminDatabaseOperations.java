@@ -38,4 +38,8 @@ public class AdminDatabaseOperations {
     public  Task<Void> adminUpdate(String key, HashMap<String,Object>hashMap){
         return databaseReference.child("Admin").child(key).updateChildren(hashMap);
     }
+
+    public Task<Void> adminDelete(String key){
+        return databaseReference.child("Admin").child(key).removeValue();
+    }
 }

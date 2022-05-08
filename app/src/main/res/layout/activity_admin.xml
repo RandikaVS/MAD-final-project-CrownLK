@@ -123,7 +123,18 @@
                     android:text="Update"
                     android:textColor="@color/black" />
 
+
+
             </LinearLayout>
+            <Button
+                android:id="@+id/adminDelete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/button_color"
+                android:text="Delete"
+                android:textColor="@color/black" />
 
         </LinearLayout>
     </ScrollView>

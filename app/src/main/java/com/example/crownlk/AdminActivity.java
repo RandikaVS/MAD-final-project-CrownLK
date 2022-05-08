@@ -29,7 +29,7 @@ public class AdminActivity extends DrawerBase {
 
     private ImageView adminPic;
     private EditText adminEmail,adminName,adminAddress,adminNic,adminPassword,adminRe_Password;
-    private Button reset,adminUpdate;
+    private Button reset,adminUpdate,AdminDelete;
     private ProgressBar loading;
     private DatabaseReference adminRef;
 
@@ -49,6 +49,7 @@ public class AdminActivity extends DrawerBase {
         this.adminRe_Password = findViewById(R.id.adminRe_Password);
         this.reset = findViewById(R.id.reset);
         this.adminUpdate = findViewById(R.id.adminUpdate);
+        this.AdminDelete = findViewById(R.id.adminDelete);
         this.loading = findViewById(R.id.progressBar);
 
         AdminDatabaseOperations adminDatabaseOperations = new AdminDatabaseOperations();
@@ -134,7 +135,7 @@ public class AdminActivity extends DrawerBase {
                         success = false;
                     }
                 }
-
+                adminDatabaseOperations.adminDelete("kdjfj");
 
                 if(success) {
                     adminDatabaseOperations.adminUpdate(currentFirebaseUser.getUid(), hashMap)
@@ -156,4 +157,5 @@ public class AdminActivity extends DrawerBase {
             }
         });
     }
+
 }

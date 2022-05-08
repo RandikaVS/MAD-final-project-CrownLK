@@ -23,11 +23,11 @@ public class ShopDatabaseOperations {
         mAuth=FirebaseAuth.getInstance();
     }
 
-//    public Task<Void> createShop(Shop shop){
-//        System.out.println("Create shop called");
-//        return databaseReference.child("MyShop").child(mAuth.getCurrentUser().getUid()).setValue(shop);
-//
-//    }
+    public Task<Void> createShop(Shop shop){
+        System.out.println("Create shop called");
+        return databaseReference.child("MyShop").child(mAuth.getCurrentUser().getUid()).setValue(shop);
+
+    }
 
     public  Task<Void> shopUpdate(String key, HashMap<String,Object> hashMap){
         return databaseReference.child("Shop").updateChildren(hashMap);

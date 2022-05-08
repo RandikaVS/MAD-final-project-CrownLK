@@ -6,14 +6,132 @@
     android:layout_height="match_parent"
     tools:context=".AddListing">
 
-    <TextView
-        android:id="@+id/textView4"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/button_color"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/add_listing_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/button_color"
+                android:src="@drawable/back_arrow"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/add_listings"
+        android:layout_gravity="center"
+        android:background="@drawable/image_icon"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/itemTitle"
+        android:layout_marginTop="40dp"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Enter Title"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/itemCategory"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Select Category"
+        android:inputType="textPersonName" />
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Listing Activity"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:src="@drawable/dropdown_arrow"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/itemDescription"
+        android:layout_marginTop="30dp"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Enter Description"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:hint="Quantity : "
+            android:inputType="textPersonName"
+            android:textSize="17sp" />
+
+        <EditText
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-100dp"/>
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/itemPrice"
+        android:layout_marginTop="30dp"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/button_color"
+        android:text="Publish"
+        android:layout_gravity="center"
+        android:layout_marginLeft="90dp"
+        android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
