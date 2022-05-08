@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrownLK">
         <activity
+            android:name=".AddListing"
+            android:exported="false" />
+        <activity
             android:name=".DashBoardActivity"
             android:exported="false" />
         <activity

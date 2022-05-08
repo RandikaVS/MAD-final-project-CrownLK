@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:ems="10"
-                android:hint="Password"
+                android:hint="New Password"
                 android:inputType="textPassword" />
 
             <EditText
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:ems="10"
-                android:hint="Re-Enter Password"
+                android:hint="Re-Enter New Password"
                 android:inputType="textPassword" />
 
             <ProgressBar

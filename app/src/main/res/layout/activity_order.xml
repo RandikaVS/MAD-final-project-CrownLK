@@ -26,10 +26,9 @@
             android:layout_height="wrap_content"
             android:text="Compleated" />
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/orders_viewpager"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
     </com.google.android.material.tabs.TabLayout>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/orders_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </LinearLayout>

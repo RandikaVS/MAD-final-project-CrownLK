@@ -45,6 +45,18 @@
         <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/admin_profile.xml" value="0.25416666666666665" />
         <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_add_listing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_admin_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_admin_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_dash_board.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_dispute.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_drawer_base.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_listings.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_notification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_order.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_shop.xml" value="0.25416666666666665" />
+        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/drawer_header.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

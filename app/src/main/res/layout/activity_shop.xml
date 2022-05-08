@@ -7,6 +7,218 @@
     tools:context=".ShopActivity">
 
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:id="@+id/shopCreateForm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="45dp">
+
+            <ImageView
+                android:id="@+id/shopLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/crown_lk"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:id="@+id/shopNameHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Shop Name"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="35sp" />
+
+
+            <EditText
+                android:id="@+id/shopName"
+                android:layout_width="269dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Shop name" />
+
+            <EditText
+                android:id="@+id/shopAddress"
+                android:layout_width="269dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Shop address" />
+
+            <EditText
+                android:id="@+id/shopDescription"
+                android:layout_width="269dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Shop description" />
+
+            <EditText
+                android:id="@+id/shopSlogan"
+                android:layout_width="269dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Shop Slogan"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/shopLinks"
+                android:layout_width="269dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Shop links"
+                android:inputType="textPersonName" />
+
+            <ProgressBar
+                android:id="@+id/progressBarShop"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+
+            <Button
+                android:id="@+id/updateShop"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/button_color"
+                android:text="update Shop"
+                android:textColor="@color/black" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+<!--    <ScrollView-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_editor_absoluteX="0dp"-->
+<!--        app:layout_editor_absoluteY="16dp"-->
+<!--        android:visibility="gone">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/shopDetails"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:orientation="vertical"-->
+<!--            tools:ignore="MissingConstraints"-->
+<!--            tools:layout_editor_absoluteX="1dp"-->
+<!--            tools:layout_editor_absoluteY="45dp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/shopNameView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="80dp"-->
+<!--                android:text="Shop name"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="35sp" />-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/shopNameEditView"-->
+<!--                android:layout_width="269dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:ems="10"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:hint="Shop name" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/shopAddressEditView"-->
+<!--                android:layout_width="269dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:ems="10"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:hint="Shop address" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/shopDescriptionEditView"-->
+<!--                android:layout_width="269dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:ems="10"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:hint="Shop description" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/shopSloganEditView"-->
+<!--                android:layout_width="269dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Shop Slogan"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/shopLinksEditView"-->
+<!--                android:layout_width="269dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Shop links"-->
+<!--                android:inputType="textPersonName" />-->
+
+<!--            <ProgressBar-->
+<!--                android:id="@+id/progressBarEditView"-->
+<!--                style="?android:attr/progressBarStyle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:visibility="gone"/>-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/updateShop"-->
+<!--                android:layout_width="169dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginTop="30dp"-->
+<!--                android:backgroundTint="@color/button_color"-->
+<!--                android:text="Create Shop"-->
+<!--                android:textColor="@color/black" />-->
+
+
+
+<!--        </LinearLayout>-->
+
+
+<!--    </ScrollView>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,13 +15,13 @@ public class AdminDatabaseOperations {
 
     public  AdminDatabaseOperations(){
         FirebaseDatabase db = FirebaseDatabase.getInstance();
-        databaseReference = db.getReference(Admins.class.getSimpleName());
+        databaseReference = db.getReference(Shop.class.getSimpleName());
         mAuth=FirebaseAuth.getInstance();
     }
 
     public Task<Void> addAdmin(Admins adm){
 
-        return databaseReference.child(mAuth.getCurrentUser().getUid()).setValue(adm);
+        return databaseReference.child("Admin").child(mAuth.getCurrentUser().getUid()).setValue(adm);
 
     }
 
@@ -36,6 +36,6 @@ public class AdminDatabaseOperations {
     }
 
     public  Task<Void> adminUpdate(String key, HashMap<String,Object>hashMap){
-        return databaseReference.child(key).updateChildren(hashMap);
+        return databaseReference.child("Admin").child(key).updateChildren(hashMap);
     }
 }

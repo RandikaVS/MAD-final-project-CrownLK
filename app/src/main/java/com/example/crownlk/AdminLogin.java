@@ -77,6 +77,7 @@ public class AdminLogin extends AppCompatActivity {
                 loading.setVisibility(View.VISIBLE);
 
 
+        if(Patterns.EMAIL_ADDRESS.matcher(mail).matches() && password.length() >=6){
 
                 adminDatabaseOperations.adminSignIn(mail,pw)
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -106,6 +107,7 @@ public class AdminLogin extends AppCompatActivity {
 
                             }
                         });
+        }
 
 
 

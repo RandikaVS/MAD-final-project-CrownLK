@@ -17,6 +17,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
 
@@ -28,6 +31,7 @@ public class AdminActivity extends DrawerBase {
     private EditText adminEmail,adminName,adminAddress,adminNic,adminPassword,adminRe_Password;
     private Button reset,adminUpdate;
     private ProgressBar loading;
+    private DatabaseReference adminRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +56,36 @@ public class AdminActivity extends DrawerBase {
         FirebaseUser currentFirebaseUser = FirebaseAuth.getInstance().getCurrentUser() ;
 
 
+        adminRef = FirebaseDatabase.getInstance().getReference("Shop").child("Admin").child(currentFirebaseUser.getUid());
+
+        adminRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if(task.isSuccessful()){
+                    if(task.getResult().exists()){
+                        Toast.makeText(AdminActivity.this,"Admin details",Toast.LENGTH_SHORT).show();
+                        DataSnapshot dataSnapshot = task.getResult();
+                        String email = String.valueOf(dataSnapshot.child("userEmail").getValue());
+                        String name = String.valueOf(dataSnapshot.child("userName").getValue());
+                        String address = String.valueOf(dataSnapshot.child("userAddress").getValue());
+                        String nic = String.valueOf(dataSnapshot.child("userNic").getValue());
+//                        String password = String.valueOf(dataSnapshot.child("userPassword").getValue());
+
+                        adminEmail.setText(email);
+                        adminName.setText(name);
+                        adminAddress.setText(address);
+                        adminNic.setText(nic);
+//                        adminPassword.setText(password);
+                    }else{
+                        Toast.makeText(AdminActivity.this,"Error fetch admin data",Toast.LENGTH_SHORT).show();
+                    }
+                }else{
+                    Toast.makeText(AdminActivity.this,"Error fetch admin data not success",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+
         this.adminUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,7 +103,7 @@ public class AdminActivity extends DrawerBase {
 //                hashMap.put("userEmail",adminEmail.getText().toString().trim());
                 hashMap.put("userName",txtAdminName);
                 hashMap.put("userNic",txtAdminNic);
-                hashMap.put("userPassword",txtAdminPassword);
+                //hashMap.put("userPassword",txtAdminPassword);
 
                 if(txtAdminAddress.isEmpty()){
                     adminAddress.setError("Please enter address ! ");
@@ -86,15 +120,19 @@ public class AdminActivity extends DrawerBase {
                     adminNic.requestFocus();
                     success=false;
                 }
-                if(txtAdminPassword.isEmpty() || txtAdminPassword.length()<6){
-                    adminPassword.setError("Please enter password containing at least 6 characters ! ");
-                    adminPassword.requestFocus();
-                    success=false;
+                if(!txtAdminPassword.isEmpty()) {
+                    if (txtAdminPassword.length() < 6) {
+                        adminPassword.setError("Please enter password containing at least 6 characters ! ");
+                        adminPassword.requestFocus();
+                        success = false;
+                    }
                 }
-                if(txtAdminRe_Password.isEmpty() || !txtAdminRe_Password.equals(txtAdminPassword)){
-                    adminRe_Password.setError("Passwords not match !");
-                    adminRe_Password.requestFocus();
-                    success=false;
+                if(!txtAdminRe_Password.isEmpty()) {
+                    if (!txtAdminRe_Password.equals(txtAdminPassword)) {
+                        adminRe_Password.setError("Passwords not match !");
+                        adminRe_Password.requestFocus();
+                        success = false;
+                    }
                 }
 
 
