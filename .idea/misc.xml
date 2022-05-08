@@ -3,50 +3,49 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_baseline_shop_24.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/drawable/side_nav_bar.xml" value="0.2595" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_admin.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_admin_login.xml" value="0.2" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_admin_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_admin_register.xml" value="0.20599409033347404" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_dash_board.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_dispute.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_drawer_base.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_fragment_shop.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_listings.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_messages.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_notification.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_order.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_shop.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/activity_user_register.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/app_bar_admin_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/content_admin_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/drawer_content_layout.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/drawer_header.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/fragment_compleated_orders_fragment.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/fragment_messages.xml" value="0.24351851851851852" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/fragment_open_orders_fragment.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/fragment_orders.xml" value="0.24351851851851852" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/nav_header_admin_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/shop_fragment.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/layout/user_login_sample.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/admin_profile.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/CrownLK/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/activity_drawer_base.xml" value="0.20863616930312098" />
-        <entry key="..\:/Digree/2nd Yr 2nd Sem/MAD/Final Project/CrownLK/MAD-final-project-CrownLK/app/src/main/res/layout/fragment_completed_orders_fragment.xml" value="0.20599409033347404" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_content_bottom.xml" value="0.12" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_icon.xml" value="0.1345" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_image.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_input.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_home.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_launcher_background.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_profile.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_update.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/round_outline.xml" value="0.158" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/selector.xml" value="0.11" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_cart.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_checkout.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_favorite.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_login.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_main.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_main2.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_profile.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_sign_in.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_signin.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_sing_in.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_sing_up_main.xml" value="0.25" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_update.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_user.xml" value="0.27291666666666664" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/item_cart.xml" value="0.1956521739130435" />
+        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/item_container_user.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.198" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_cart.xml" value="0.1935" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_favorite.xml" value="0.1935" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_home.xml" value="0.1715" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.198" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_profile.xml" value="0.1715" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/selector.xml" value="0.1715" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_cart.xml" value="0.264" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_checkout.xml" value="0.2421875" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_profile.xml" value="0.10104166666666667" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_update.xml" value="0.10104166666666667" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/item_cart.xml" value="0.264" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/menu/bottom_navigation.xml" value="0.2421875" />
+        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/menu/menu_navigation.xml" value="0.2421875" />
       </map>
     </option>
   </component>
