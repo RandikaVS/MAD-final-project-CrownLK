@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CrownLk">
         <activity
+            android:name=".UserSignIn"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
             android:name=".checkout"
             android:exported="false" />
         <activity

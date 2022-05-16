@@ -27,17 +27,18 @@ public class update extends AppCompatActivity {
 
                 switch (item.getItemId())
                 {
-                    case R.id.profile:
-                        startActivity(new Intent(getApplicationContext(),profile.class));
-                        overridePendingTransition(0,0);
+                    case R.id.update:
+
                         return true;
 
                     case R.id.home:
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(),HomePage.class));
                         overridePendingTransition(0,0);
                         return true;
 
-                    case R.id.update:
+                    case R.id.profile:
+                        startActivity(new Intent(getApplicationContext(),profile.class));
+                        overridePendingTransition(0,0);
                         return true;
 
                     case R.id.favorite:

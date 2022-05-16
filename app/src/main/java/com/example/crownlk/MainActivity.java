@@ -6,9 +6,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Patterns;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -17,70 +27,60 @@ import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
 
-    BottomNavigationView bottomNavigationView;
+    RelativeLayout toSignin;
+    EditText email,password;
+    Button login;
 
+    FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("User");
+        DatabaseReference myRef = database.getReference("Shop");
 
-        myRef.setValue("Hello, User");
+        this.toSignin = findViewById(R.id.userSigninBtn);
+        email = findViewById(R.id.userEmail);
+        password = findViewById(R.id.userPassword);
+        login = findViewById(R.id.userLoginBtn);
 
+        mAuth = FirebaseAuth.getInstance();
 
-        myRef.addValueEventListener(new ValueEventListener() {
+        toSignin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                // This method is called once with the initial value and again
-                // whenever data at this location is updated.
-                String value = dataSnapshot.getValue(String.class);
-                Log.d("crownlk", "Value is: " + value);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-                // Failed to read value
-                Log.w("crownlk", "Failed to read value.", error.toException());
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,UserSignIn.class));
             }
         });
 
-        bottomNavigationView=findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.home);
-
-        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+        login.setOnClickListener(new View.OnClickListener() {
             @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            public void onClick(View view) {
+                String useremail = email.getText().toString().trim();
+                String userpassword = password.getText().toString().trim();
 
-                  switch (item.getItemId())
-                  {
-                      case R.id.favorite:
-                          startActivity(new Intent(getApplicationContext(),favorite.class));
-                          overridePendingTransition(0,0);
-                          return true;
+                if(!Patterns.EMAIL_ADDRESS.matcher(useremail).matches()){
+                    email.setError("Please enter valid email");
+                    email.requestFocus();
+                }
 
-                      case R.id.home:
-                          return true;
-
-                      case R.id.profile:
-                           startActivity(new Intent(getApplicationContext(),profile.class));
-                           overridePendingTransition(0,0);
-                           return true;
-
-                      case R.id.update:
-                           startActivity(new Intent(getApplicationContext(),update.class));
-                           overridePendingTransition(0,0);
-                           return true;
-
-                      case R.id.cart:
-                          startActivity(new Intent(getApplicationContext(),cart.class));
-                          overridePendingTransition(0,0);
-                          return true;
-                  }
-
-                return false;
+                mAuth.signInWithEmailAndPassword(useremail,userpassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if(task.isSuccessful()){
+                            startActivity(new Intent(MainActivity.this,HomePage.class));
+                        }else{
+                            Toast.makeText(MainActivity.this,"Fail lo login",Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
             }
         });
+
+
+
+
+
     }
 }
