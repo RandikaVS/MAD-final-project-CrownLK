@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "474390858006",
+    "firebase_url": "https://crownlk-249fa-default-rtdb.firebaseio.com",
+    "project_id": "crownlk-249fa",
+    "storage_bucket": "crownlk-249fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474390858006:android:95eb2ef0a3f086333ba837",
+        "android_client_info": {
+          "package_name": "com.example.crownlk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474390858006-ler7u9duopoccv1asf8ikfv1a2ucfmmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuWVZZo4JhPZGm2KWtZYltHyj3xqRyFCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474390858006-ler7u9duopoccv1asf8ikfv1a2ucfmmu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
