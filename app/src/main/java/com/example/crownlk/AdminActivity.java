@@ -101,10 +101,8 @@ public class AdminActivity extends DrawerBase {
 
                 HashMap<String,Object> hashMap = new HashMap<>();
                 hashMap.put("userAddress",txtAdminAddress);
-//                hashMap.put("userEmail",adminEmail.getText().toString().trim());
                 hashMap.put("userName",txtAdminName);
                 hashMap.put("userNic",txtAdminNic);
-                //hashMap.put("userPassword",txtAdminPassword);
 
                 if(txtAdminAddress.isEmpty()){
                     adminAddress.setError("Please enter address ! ");
@@ -135,7 +133,7 @@ public class AdminActivity extends DrawerBase {
                         success = false;
                     }
                 }
-                adminDatabaseOperations.adminDelete("kdjfj");
+                //adminDatabaseOperations.adminDelete("kdjfj");
 
                 if(success) {
                     adminDatabaseOperations.adminUpdate(currentFirebaseUser.getUid(), hashMap)

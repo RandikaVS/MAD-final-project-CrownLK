@@ -24,6 +24,7 @@
     <string name="menu_drawer_open">Drawer Open</string>
     <string name="menu_drawer_close">Drawer Close</string>
     <string name="register_header">Welcome</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listing_item_hint">Select Category</string>
+    <string name="delete_listing"><u>delete</u></string>
+    <string name="update_listing"><u>update</u></string>
 </resources>
