@@ -3,84 +3,61 @@ package com.example.crownlk;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.util.Patterns;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
+import com.example.crownlk.Fragments.CartFragment;
+import com.example.crownlk.Fragments.FavouriteFragment;
+import com.example.crownlk.Fragments.HomeFragment;
+import com.example.crownlk.Fragments.ProfileFragment;
+import com.example.crownlk.Fragments.UpdateFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
 
-    RelativeLayout toSignin;
-    EditText email,password;
-    Button login;
+    BottomNavigationView bottom_navigation_view;
 
-    FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("Shop");
+        bottom_navigation_view = findViewById(R.id.bottom_navigation_view);
+        bottom_navigation_view.setOnNavigationItemSelectedListener(this);
+        bottom_navigation_view.setSelectedItemId(R.id.navigation_home);
+    }
 
-        this.toSignin = findViewById(R.id.userSigninBtn);
-        email = findViewById(R.id.userEmail);
-        password = findViewById(R.id.userPassword);
-        login = findViewById(R.id.userLoginBtn);
+    CartFragment cartFragment = new CartFragment();
+    FavouriteFragment favouriteFragment = new FavouriteFragment();
+    HomeFragment homeFragment = new HomeFragment();
+    ProfileFragment profileFragment = new ProfileFragment();
+    UpdateFragment updateFragment = new UpdateFragment();
 
-        mAuth = FirebaseAuth.getInstance();
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        toSignin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,UserSignIn.class));
-            }
-        });
+        switch (item.getItemId()) {
+            case R.id.navigation_home:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
+                return true;
 
-        login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String useremail = email.getText().toString().trim();
-                String userpassword = password.getText().toString().trim();
+            case R.id.navigation_favourite:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, favouriteFragment).commit();
+                return true;
 
-                if(!Patterns.EMAIL_ADDRESS.matcher(useremail).matches()){
-                    email.setError("Please enter valid email");
-                    email.requestFocus();
-                }
+            case R.id.navigation_update:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, updateFragment).commit();
+                return true;
 
-                mAuth.signInWithEmailAndPassword(useremail,userpassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
-                            startActivity(new Intent(MainActivity.this,HomePage.class));
-                        }else{
-                            Toast.makeText(MainActivity.this,"Fail lo login",Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-            }
-        });
+            case R.id.navigation_profile:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, profileFragment).commit();
+                return true;
 
+            case R.id.navigation_cart:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, cartFragment).commit();
+                return true;
+        }
 
-
-
-
+        return false;
     }
 }

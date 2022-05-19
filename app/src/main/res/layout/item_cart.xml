@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/cart_item"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
+    android:layout_margin="15dp"
     android:layout_marginBottom="8dp"
-    android:background="@color/white">
-
+    android:background="#E4E1E1"
+    android:elevation="10dp"
+    android:padding="10dp">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="373dp"
+        android:layout_height="167dp"
+        android:elevation="3dp"
         android:orientation="vertical">
 
 
@@ -20,7 +22,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
-            android:text="Herbal tea dog and cat"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -42,73 +43,59 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginTop="2dp"
-                    android:text="Rs.900.00"
+                    android:textColor="@color/black"
                     android:textSize="15sp" />
 
-                <EditText
+                <TextView
                     android:id="@+id/quantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:hint="Quantity"/>
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/black"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <Button
-                        android:id="@+id/buy"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="buy"
-                        android:layout_marginRight="10dp"/>
+
 
                     <Button
                         android:id="@+id/remove"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="remove"
-                        android:layout_marginLeft="10dp"/>
+                        android:layout_height="55dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginHorizontal="5dp"
+                        android:backgroundTint="@color/white"
+                        android:text="Remove"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        app:cornerRadius="50dp" />
+
+
                 </LinearLayout>
 
             </LinearLayout>
 
 
-
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="140dp"
-                android:layout_height="140dp"
-                android:src="@mipmap/ic_launcher" />
+                android:layout_height="130dp" />
 
 
         </LinearLayout>
-
-        <!--        </LinearLayout>-->
-
-        <!--        <LinearLayout-->
-        <!--            android:layout_width="40dp"-->
-        <!--            android:layout_height="match_parent"-->
-        <!--            android:orientation="vertical">-->
-
-        <!--            <ImageButton-->
-        <!--                android:id="@+id/confirm"-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_marginBottom="3dp"-->
-        <!--                android:layout_weight="1"-->
-        <!--                android:background="@null"-->
-        <!--                android:src="@drawable/ic_pen_black" />-->
-
-        <!--            <ImageButton-->
-        <!--                android:layout_width="match_parent"-->
-        <!--                android:layout_height="wrap_content"-->
-        <!--                android:layout_marginTop="3dp"-->
-        <!--                android:layout_weight="1"-->
-        <!--                android:background="@null"-->
-        <!--                android:src="@drawable/ic_clear_black" />-->
-        <!--        </LinearLayout>-->
-
 
     </LinearLayout>
 
