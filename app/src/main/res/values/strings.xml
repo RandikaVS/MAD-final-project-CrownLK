@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">crownLk</string>
+    <string name="app_name">CrownLK</string>
+    <string name="what_s_your_style">What\'s your style?</string>
+    <string name="favourite_helps_crownlk_provide_unique_recommendations_tailored_just_for_you_tap_on_some_heart_icons_below_so_crownlk_knew_what_you_like">Favourite helps CrownLK provide unique recommendations. Tailored just for you tap on some heart icons below so CrownLK knew what you like</string>
     <string name="your_string_here"><u>Sing in</u>.
     </string>
     <string name="welcome">WELCOME</string>
@@ -16,4 +18,5 @@
     <string name="sign_up">Sign Up</string>
     <string name="log_In">Log In</string>
     <string name="select_user">select User</string>
+    <string name="type_a_message">Type a message</string>
 </resources>

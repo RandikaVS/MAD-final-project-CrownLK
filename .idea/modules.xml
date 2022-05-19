@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/crownLk.iml" filepath="$PROJECT_DIR$/.idea/modules/crownLk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/crownLk.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/crownLk.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CrownLK.iml" filepath="$PROJECT_DIR$/.idea/modules/CrownLK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CrownLK.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CrownLK.app.iml" />
     </modules>
   </component>
 </project>

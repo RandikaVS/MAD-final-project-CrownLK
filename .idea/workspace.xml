@@ -5,16 +5,11 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="FCM" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c53d2330-c7b8-4036-8ac9-3e75cf2de8af" name="Default Changelist" comment="" />
+    <list default="true" id="f318d3eb-d4b4-42e5-bffe-667ecee3ccb5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,21 +24,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="resourceFile" />
         <option value="layoutResourceFile" />
         <option value="Class" />
-        <option value="resourceFile" />
       </list>
     </option>
   </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="ProjectId" id="28qHDhCuEuVdeLCZj0uuiGCnWn8" />
+  <component name="ProjectId" id="29Kgg4P4Iiqy0LkRPwsw9g5ZaKp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,24 +40,42 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SLIIT\2022 Y2S2\MAD\MAD-final-project-CrownLK-Deshitha\app\src\main\res\drawable-v24" />
-    </key>
-    <key name="android.template.-392356383">
-      <recent name="com.example.crownlk.activites" />
-    </key>
-    <key name="android.template.-1774516484">
-      <recent name="com.example.crownlk.activites" />
+    <key name="android.template.-1493594226">
       <recent name="com.example.crownlk" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CrownLK\app\src\main\res\drawable" />
+      <recent name="D:\CrownLK\app\src\main\res\layout" />
+      <recent name="D:\CrownLK\app\src\main\java\com\example\crownlk" />
+      <recent name="C:\Users\Hirusha\AndroidStudioProjects\CrownLK\app\src\main\res\menu" />
+      <recent name="C:\Users\Hirusha\AndroidStudioProjects\CrownLK\app\src\main\res\layout" />
+    </key>
+    <key name="android.template.-622258810">
+      <recent name="com.example.crownlk" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.crownlk" />
+      <recent name="com.example.crownlk.Adapter" />
+      <recent name="com.example.crownlk.Model" />
+      <recent name="com.example.crownlk.Fragments" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="crownLk.app" />
+      <module name="CrownLK.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -116,7 +121,7 @@
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
         <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
         <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
@@ -130,13 +135,16 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c53d2330-c7b8-4036-8ac9-3e75cf2de8af" name="Default Changelist" comment="" />
-      <created>1651937078462</created>
+      <changelist id="f318d3eb-d4b4-42e5-bffe-667ecee3ccb5" name="Default Changelist" comment="" />
+      <created>1652867298718</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651937078462</updated>
+      <updated>1652867298718</updated>
     </task>
     <servers />
   </component>

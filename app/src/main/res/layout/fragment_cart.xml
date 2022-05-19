@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".Fragments.CartFragment">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="5dp"
+           android:layout_margin="10dp"
+           android:background="#DFDDDD"
+           android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/item_count"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="25dp"
+               android:layout_marginRight="25dp"
+               android:layout_marginTop="15dp"/>
+
+           <TextView
+               android:id="@+id/total_price"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="25dp"
+               android:layout_marginRight="25dp"
+               android:layout_marginTop="15dp"
+               android:layout_marginBottom="15dp"/>
+
+           <Button
+               android:id="@+id/buy"
+               android:layout_width="match_parent"
+               android:layout_height="55dp"
+               android:backgroundTint="@color/purple_200"
+               android:text="Buy"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="15dp"
+               android:textColor="@color/white"
+               android:textSize="15sp" />
+
+       </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cartRecyclerview"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -3,53 +3,47 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_content_bottom.xml" value="0.12" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_icon.xml" value="0.1345" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_image.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/background_input.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_home.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_launcher_background.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_profile.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/ic_update.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/round_outline.xml" value="0.158" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/drawable/selector.xml" value="0.11" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_cart.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_checkout.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_favorite.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_login.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_main.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_main2.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_profile.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_sign_in.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_signin.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_sing_in.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_sing_up_main.xml" value="0.25" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_update.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_user.xml" value="0.27291666666666664" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/activity_user_login.xml" value="0.25" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/item_cart.xml" value="0.1956521739130435" />
-        <entry key="..\:/SLIIT/2022 Y2S2/MAD/MAD-final-project-CrownLK-Deshitha/app/src/main/res/layout/item_container_user.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.198" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_cart.xml" value="0.1935" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_favorite.xml" value="0.1935" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_home.xml" value="0.1715" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.198" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/ic_profile.xml" value="0.1715" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/drawable/selector.xml" value="0.1715" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_cart.xml" value="0.264" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_checkout.xml" value="0.2421875" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_favorite.xml" value="0.25" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_profile.xml" value="0.10104166666666667" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/activity_update.xml" value="0.10104166666666667" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/layout/item_cart.xml" value="0.264" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/menu/bottom_navigation.xml" value="0.2421875" />
-        <entry key="..\:/Users/DESHITHA/AndroidStudioProjects/crownLk2/app/src/main/res/menu/menu_navigation.xml" value="0.2421875" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_chat_input.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_content_bottom.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_content_top.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_icon.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_image.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_input.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_received_message.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/background_send_message.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/ic_back.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/ic_info.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/ic_logout.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/ic_send.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/round_outline.xml" value="0.1315" />
+        <entry key="..\:/CrownLK/app/src/main/res/drawable/rounded_corner.xml" value="0.1305" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_chat.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_login.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_main.xml" value="0.22413793103448276" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_main2.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_product_view.xml" value="0.25" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_register.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_sing_in.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_sing_up_main.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_start.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/activity_users.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/bar_layout.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/fragment_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/fragment_favourite.xml" value="0.33" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_container_received_message.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_container_recent_conversation.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_container_sent_message.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_container_user.xml" value="0.26875" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_fav.xml" value="0.27291666666666664" />
+        <entry key="..\:/CrownLK/app/src/main/res/layout/item_product.xml" value="0.27291666666666664" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
